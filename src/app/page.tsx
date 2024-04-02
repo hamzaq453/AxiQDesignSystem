@@ -23,6 +23,7 @@ import Path from "./components/Path";
 import SummaryDetail from "./components/SummaryDetail";
 import TabsComponent from "./components/Tabs";
 import TextArea from "./components/TextArea";
+import Toast from "./components/Toast";
 
 export default function Home() {
   return (
@@ -51,6 +52,7 @@ export default function Home() {
       <SummaryDetail/>
       <TabsComponent/>
       <TextArea/>
+      <Toast/>
       {/* <Modals/> */}
 
 
