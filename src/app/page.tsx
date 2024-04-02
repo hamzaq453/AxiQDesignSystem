@@ -6,6 +6,7 @@ import DataTable from "./components/DataTable";
 import FormElementStacked from "./components/FormElementStacked";
 import FormLabel from "./components/FormLabel";
 import Layout from "./components/Layout";
+import Card from "./components/Card";
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
       <ListScreen/>
       <DataTable/>
       <FormLabel/>
-      <Layout/>
       <FormElementStacked/>
+      <Layout/>
+      <Card/>
     </main>
   );
 }
