@@ -18,7 +18,11 @@ import ComboBox from "./components/ComboBox";
 import RadioGroup from "./components/RadioGroup";
 import FileSelector from "./components/FileSelector";
 import Files from "./components/Files";
-import PanelHeader from "./components/PanelHeader";
+import PanelHeader from "./components/Panels";
+import Path from "./components/Path";
+import SummaryDetail from "./components/SummaryDetail";
+import TabsComponent from "./components/Tabs";
+import TextArea from "./components/TextArea";
 
 export default function Home() {
   return (
@@ -43,6 +47,10 @@ export default function Home() {
       <FileSelector/>
       <Files/>
       <PanelHeader/>
+      <Path/>
+      <SummaryDetail/>
+      <TabsComponent/>
+      <TextArea/>
       {/* <Modals/> */}
 
 

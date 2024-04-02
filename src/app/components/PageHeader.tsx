@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PageHeader() {
+function Panels() {
   return (
     <div className='w-full'>
          <div>
@@ -86,4 +86,4 @@ function PageHeader() {
   )
 }
 
-export default PageHeader
+export default Panels
