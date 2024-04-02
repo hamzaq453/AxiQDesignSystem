@@ -4,6 +4,7 @@ import GlobalHeader from "./components/GlobalHeader";
 import TopNavbar from "./components/TopNavbar";
 import ListScreen from "./components/ListScreen";
 import DataTable from "./components/DataTable";
+import FormElement from "./components/FormElement";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <PageHeader/>
       <ListScreen/>
       <DataTable/>
+      <FormElement/>
     </main>
   );
 }
