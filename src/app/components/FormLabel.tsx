@@ -1,6 +1,6 @@
 import React from 'react'
 
-function FormElement() {
+function FormLabel() {
   return (
 <div>  
  <div className="mt-5 md:mt-0 md:col-span-2">
@@ -32,4 +32,4 @@ function FormElement() {
   )
 }
 
-export default FormElement
+export default FormLabel

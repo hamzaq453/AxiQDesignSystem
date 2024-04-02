@@ -1,10 +1,10 @@
-import Image from "next/image";
 import PageHeader from "./components/PageHeader";
 import GlobalHeader from "./components/GlobalHeader";
 import TopNavbar from "./components/TopNavbar";
 import ListScreen from "./components/ListScreen";
 import DataTable from "./components/DataTable";
-import FormElement from "./components/FormElement";
+import FormElementStacked from "./components/FormElementStacked";
+import FormLabel from "./components/FormLabel";
 
 export default function Home() {
   return (
@@ -14,7 +14,8 @@ export default function Home() {
       <PageHeader/>
       <ListScreen/>
       <DataTable/>
-      <FormElement/>
+      <FormLabel/>
+      <FormElementStacked/>
     </main>
   );
 }
