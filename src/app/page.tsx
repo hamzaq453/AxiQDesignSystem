@@ -24,6 +24,16 @@ import SummaryDetail from "./components/SummaryDetail";
 import TabsComponent from "./components/Tabs";
 import TextArea from "./components/TextArea";
 import Toast from "./components/Toast";
+import AlignmentUtility from "./components/utilities/Alignment";
+import BorderUtility from "./components/utilities/Border";
+import Box from "./components/utilities/Box";
+import Grid from "./components/utilities/Grid";
+import Margin from "./components/utilities/Margin";
+import Padding from "./components/utilities/Padding";
+import Print from "./components/utilities/Print";
+import SizingUtility from "./components/utilities/Sizing";
+import TruncationUtility from "./components/utilities/Truncation";
+import VisibilityUtilities from "./components/utilities/Visibility";
 
 export default function Home() {
   return (
@@ -38,6 +48,7 @@ export default function Home() {
       <Layout/>
       <Card/>
       <Spinner/>
+    {/* <Modals/> */}
       <RadioButtonGroup/>
       <Buttons/>
       <ButtonGroup/>
@@ -53,7 +64,17 @@ export default function Home() {
       <TabsComponent/>
       <TextArea/>
       <Toast/>
-      {/* <Modals/> */}
+      {/* Utilities */}
+      <AlignmentUtility/>
+      <BorderUtility/>
+      <Box/>
+      <Grid/>
+      <Margin/>
+      <Padding/>
+      <Print/>
+      <SizingUtility/>
+      <TruncationUtility/>
+      <VisibilityUtilities/>
 
 
     </main>
