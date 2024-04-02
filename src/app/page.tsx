@@ -8,6 +8,8 @@ import FormLabel from "./components/FormLabel";
 import Layout from "./components/Layout";
 import Card from "./components/Card";
 import Modals from "./components/Modals";
+import Spinner from "./components/Spinner";
+import RadioButtonGroup from "./components/RadioButtonGroup";
 
 export default function Home() {
   return (
@@ -21,7 +23,11 @@ export default function Home() {
       <FormElementStacked/>
       <Layout/>
       <Card/>
-      <Modals/>
+      <Spinner/>
+      <RadioButtonGroup/>
+      {/* <Modals/> */}
+
+
     </main>
   );
 }
