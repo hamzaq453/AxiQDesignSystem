@@ -7,6 +7,7 @@ import FormElementStacked from "./components/FormElementStacked";
 import FormLabel from "./components/FormLabel";
 import Layout from "./components/Layout";
 import Card from "./components/Card";
+import Modals from "./components/Modals";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <FormElementStacked/>
       <Layout/>
       <Card/>
+      <Modals/>
     </main>
   );
 }
