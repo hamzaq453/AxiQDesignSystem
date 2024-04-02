@@ -11,6 +11,12 @@ import Modals from "./components/Modals";
 import Spinner from "./components/Spinner";
 import RadioButtonGroup from "./components/RadioButtonGroup";
 import Buttons from "./components/Buttons";
+import Checkbox from "./components/Checkbox";
+import ButtonGroup from "./components/ButtonGroup";
+import ButtonIcons from "./components/ButtonIcons";
+import ComboBox from "./components/ComboBox";
+import RadioGroup from "./components/RadioGroup";
+import FileSelector from "./components/FileSelector";
 
 export default function Home() {
   return (
@@ -27,6 +33,12 @@ export default function Home() {
       <Spinner/>
       <RadioButtonGroup/>
       <Buttons/>
+      <ButtonGroup/>
+      <ButtonIcons/>
+      <Checkbox/>
+      <ComboBox/>
+      <RadioGroup/>
+      <FileSelector/>
       {/* <Modals/> */}
 
 
