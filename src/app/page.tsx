@@ -10,6 +10,7 @@ import Card from "./components/Card";
 import Modals from "./components/Modals";
 import Spinner from "./components/Spinner";
 import RadioButtonGroup from "./components/RadioButtonGroup";
+import Buttons from "./components/Buttons";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Card/>
       <Spinner/>
       <RadioButtonGroup/>
+      <Buttons/>
       {/* <Modals/> */}
 
 
