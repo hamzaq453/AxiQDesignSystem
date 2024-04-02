@@ -17,6 +17,7 @@ import ButtonIcons from "./components/ButtonIcons";
 import ComboBox from "./components/ComboBox";
 import RadioGroup from "./components/RadioGroup";
 import FileSelector from "./components/FileSelector";
+import Files from "./components/Files";
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
       <ComboBox/>
       <RadioGroup/>
       <FileSelector/>
+      <Files/>
       {/* <Modals/> */}
 
 
