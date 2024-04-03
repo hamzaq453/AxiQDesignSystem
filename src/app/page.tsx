@@ -10,7 +10,7 @@ import Card from "./components/Card";
 import Modals from "./components/Modals";
 import Spinner from "./components/Spinner";
 import RadioButtonGroup from "./components/RadioButtonGroup";
-import Buttons from "./components/Buttons";
+import Buttons from "./components/Buttons2";
 import Checkbox from "./components/Checkbox";
 import ButtonGroup from "./components/ButtonGroup";
 import ButtonIcons from "./components/ButtonIcons";
@@ -34,6 +34,9 @@ import Print from "./components/utilities/Print";
 import SizingUtility from "./components/utilities/Sizing";
 import TruncationUtility from "./components/utilities/Truncation";
 import VisibilityUtilities from "./components/utilities/Visibility";
+import ButtonGroup2 from "./components/ButtonGroup2";
+import PageHeader2 from "./components/PageHeader2";
+import Button from "./components/Buttons";
 
 export default function Home() {
   return (
@@ -51,7 +54,51 @@ export default function Home() {
     {/* <Modals/> */}
       <RadioButtonGroup/>
       <Buttons/>
-      <ButtonGroup/>
+      <ButtonGroup2/>
+    
+      <div className="bg-black text-white">
+        <h2 className="text-xl font-semibold">Checkbox Button Group</h2>
+        <ButtonGroup variant="checkbox" labels={{ label: 'Select Options' }}>
+          <input type="checkbox" className="form-checkbox h-5 w-5 " /><span className="ml-2 text-gray-700">Option 1</span>
+          <input type="checkbox" className="form-checkbox h-5 w-5 " /><span className="ml-2 text-gray-700">Option 2</span>
+        </ButtonGroup>
+      </div>
+      <ButtonGroup className="bg-white text-black " variant="list" labels={{ label: 'List of Actions', error: 'Please select at least one option.' }}>
+          {/* Default Button */}
+      <Button >
+        Default Button
+      </Button>
+
+      {/* Button with Icon on the Left */}
+      <Button
+        iconName="settings"
+        iconPosition="left"
+        variant="brand"
+      >
+        Settings
+      </Button>
+
+      {/* Responsive Button */}
+      <Button
+        responsive={true}
+        variant="destructive"
+        iconSize="large"
+      >
+        Responsive Button
+      </Button>
+
+      {/* Button with Assistive Text for Accessibility */}
+      <Button
+        iconName="info"
+        iconSize="large"
+        assistiveText="More information"
+      >
+        <span className="sr-only">More Information</span>
+      </Button>
+
+        </ButtonGroup>
+
+      
       <ButtonIcons/>
       <Checkbox/>
       <ComboBox/>
@@ -59,6 +106,9 @@ export default function Home() {
       <FileSelector/>
       <Files/>
       <PanelHeader/>
+
+      
+
       <Path/>
       <SummaryDetail/>
       <TabsComponent/>
